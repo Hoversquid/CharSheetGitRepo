@@ -21,3 +21,6 @@ C:\Users\Hoversquid\Documents\Visual Studio 2015\Projects\CharacterSheet\Charact
 C:\Users\Hoversquid\Documents\Visual Studio 2015\Projects\CharacterSheet\CharacterSheet\obj\Debug\Selection.baml
 C:\Users\Hoversquid\Documents\Visual Studio 2015\Projects\CharacterSheet\CharacterSheet\obj\Debug\ControlWindow.g.cs
 C:\Users\Hoversquid\Documents\Visual Studio 2015\Projects\CharacterSheet\CharacterSheet\obj\Debug\ControlWindow.baml
+C:\Users\Hoversquid\Documents\Visual Studio 2015\Projects\CharacterSheet\CharSheetGitRepo\CharacterSheet\bin\Debug\CharacterSheet.exe.config
+C:\Users\Hoversquid\Documents\Visual Studio 2015\Projects\CharacterSheet\CharSheetGitRepo\CharacterSheet\obj\Debug\CharacterSheet.exe
+C:\Users\Hoversquid\Documents\Visual Studio 2015\Projects\CharacterSheet\CharSheetGitRepo\CharacterSheet\obj\Debug\CharacterSheet.pdb

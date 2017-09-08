@@ -6,5 +6,6 @@
   <Template />
   <Custom>
     <Evil>Sure</Evil>
+    <Field_Name>Value</Field_Name>
   </Custom>
 </Character>
