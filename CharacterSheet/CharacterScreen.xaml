@@ -1,0 +1,33 @@
+﻿<Window x:Class="CharacterSheet.CharacterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CharacterSheet"
+        mc:Ignorable="d"
+        Title="CharacterScreen" Height="350" Width="275">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Add">
+                <MenuItem Header="_Custom Control" Click="Add_Custom_Click"/>
+                <MenuItem Header="_Template" Click="Add_Template_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Delete">
+                <MenuItem Header="_Custom Control" Click="Del_Custom_Click" />
+                <MenuItem Header="_Template" Click="Del_Template_Click"/>
+            </MenuItem>
+            <MenuItem Header="_Save">
+                <MenuItem Header="_Character" Click="Save_Character_Click"/>
+                <MenuItem Header="_As New Character" Click="Save_New_Character_Click"/>
+            </MenuItem>
+        </Menu>
+        <Grid>
+            <StackPanel Grid.Row="0" Name="Stack"/>
+            <StatusBar Grid.Row="1" Name="Status"/>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
+        </Grid>
+    </DockPanel>
+</Window>

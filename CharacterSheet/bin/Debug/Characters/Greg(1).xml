@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character>
+  <Standard>
+    <Name type="text">Greg(1)</Name>
+  </Standard>
+  <Template name="DND35">
+    <STR type="num" />
+    <DEX type="num" />
+    <CON type="num" />
+    <INT type="num" />
+    <WIS type="num" />
+    <CHA type="num" />
+  </Template>
+  <Template name="Homebrew">
+    <Blood type="num" />
+    <Sweat type="num" />
+    <Gristle type="num" />
+    <Napkins type="num" />
+  </Template>
+  <Custom>
+    <Name>Value</Name>
+  </Custom>
+</Character>

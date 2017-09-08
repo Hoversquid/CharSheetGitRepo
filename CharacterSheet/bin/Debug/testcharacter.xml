@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character>
+  <Standard>
+    <Name type="text">Gob</Name>
+    <Chartype type="text">Player</Chartype>
+  </Standard>
+  <Template>
+    <DND3.5>
+      <Class type="text">Wizard</Class>
+      <BAB type="num">5</BAB>
+    </DND3.5>
+  </Template>
+  <Custom>
+    <Test type="text">Testing</Test>
+  </Custom>
+</Character>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CharacterSheet.App" Collapsed="true">
+    <Position X="8.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSheet.Character">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAIBAIAAAAABAEAAgAAQAAgAQQAAAABAACAAAAAA=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSheet.CharacterInput" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CharacterInput.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CharacterSheet.CharacterScreen" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAkAEBAAAQAAEAQAAEAABEAABAAABAQAAA=</HashCode>
+      <FileName>CharacterScreen.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CharacterSheet.Control">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAQAAAAAAAgAARAoAIEQAAA=</HashCode>
+      <FileName>Control.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSheet.ControlWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABAAAAAAAAAQAAAABAAAAAAIAAAAAAMA=</HashCode>
+      <FileName>ControlWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CharacterSheet.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CharacterSheet.Reader">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CharacterSheet.Reader.NodeType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Reader.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAgAACCBCAAAQBAQAAQgGAAEgBEAEQgIAYAY=</HashCode>
+      <FileName>Reader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSheet.Selection" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CharacterSheet.Selection.SelectType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Selection.xaml.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAACABAAAAAAAAEAAAAAAAAAAEAAIAAAAQ=</HashCode>
+      <FileName>Selection.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CharacterSheet.ControlData" Collapsed="true">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Selection.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSheet.Properties.Resources" Collapsed="true">
+    <Position X="6.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CharacterSheet.Properties.Settings" Collapsed="true">
+    <Position X="6.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

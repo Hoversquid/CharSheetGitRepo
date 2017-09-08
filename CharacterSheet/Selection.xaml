@@ -1,0 +1,19 @@
+﻿<Window x:Class="CharacterSheet.Selection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CharacterSheet"
+        mc:Ignorable="d"
+        Title="Window2" Height="254.867" Width="155.31">
+    <Grid>
+        <ListBox x:Name="listBox" ItemsSource="{Binding Controls}" HorizontalAlignment="Left" Margin="10,10,0,55" Width="127">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}" Width="100" HorizontalAlignment="Center"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button x:Name="selectionBut" Grid.Column="0" Content="Select" Margin="10,175,10,28" Click="selectionBut_Click"/>
+    </Grid>
+</Window>

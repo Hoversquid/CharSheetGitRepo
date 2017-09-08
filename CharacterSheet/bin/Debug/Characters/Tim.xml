@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Character>
+  <Standard>
+    <Name type="text">Tim</Name>
+  </Standard>
+  <Template />
+  <Custom>
+    <Evil>Sure</Evil>
+  </Custom>
+</Character>
